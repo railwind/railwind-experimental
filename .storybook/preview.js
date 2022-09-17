@@ -1,6 +1,6 @@
 import { addParameters } from '@storybook/react';
 
-import '../src/tailwind.css';
+import './tailwind.css';
 
 addParameters({
   themes: {

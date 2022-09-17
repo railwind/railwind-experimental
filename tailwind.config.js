@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+const withRailwind = require('./src/utils/withRailwind');
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const configuration = {
   darkMode: 'class',
   content: ['./src/**/*.{ts,tsx}'],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+  theme: {},
 };
+
+module.exports = withRailwind(configuration);

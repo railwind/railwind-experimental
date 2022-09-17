@@ -62,8 +62,10 @@
     "tailwindcss": "^3.1.8"
   },
   "dependencies": {
+    "deepmerge": "^4.2.2",
     "react": "^16 || ^17 || ^18",
-    "react-dom": "^16 || ^17 || ^18"
+    "react-dom": "^16 || ^17 || ^18",
+    "tailwind-merge": "^1.6.0"
   },
   "peerDependencies": {
     "react": "^16 || ^17 || ^18",
