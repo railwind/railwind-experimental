@@ -1,6 +1,6 @@
 {
   "name": "railwind-experimental",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -11,7 +11,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "npm run clean && rollup -c",
+    "build": "npm run clean && rollup -c && npm run copy",
+    "copy": "mkdir -p dist/utils && cp src/utils/withRailwind.js dist/utils/ && cp -r src/themes/base/ dist/themes/",
     "clean": "rimraf -r dist",
     "lint": "eslint 'src/**/*.{ts,tsx,json}'",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc.json",

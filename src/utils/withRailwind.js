@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const merge = require('deepmerge');
-const colors = require('../themes/colors');
+const colors = require('../themes/base/colors');
 
 /** @type {import('tailwindcss').Config} */
 const baseTailwindConfig = {
