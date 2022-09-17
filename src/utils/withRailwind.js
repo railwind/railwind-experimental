@@ -6,8 +6,8 @@ const colors = require('../themes/base/colors');
 const baseTailwindConfig = {
   darkMode: 'class',
   content: [
-    './node_modules/railwind-experimental/components/**/*.{ts,tsx}',
-    './node_modules/railwind-experimental/themes/components/**/*.{ts,tsx}',
+    './node_modules/railwind-experimental/dist/components/**/*.{ts,tsx}',
+    './node_modules/railwind-experimental/dist/themes/components/**/*.{ts,tsx}',
   ],
   theme: {
     colors,
