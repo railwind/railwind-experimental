@@ -1,12 +1,12 @@
 {
   "name": "railwind-experimental",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "description": "Minimal, Clean and Expandable Components",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/*",
+    "dist",
     "README.md",
     "LICENSE"
   ],
