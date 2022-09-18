@@ -1,18 +1,17 @@
 {
   "name": "railwind-experimental",
-  "version": "0.1.5",
-  "description": "",
+  "version": "0.2.0",
+  "description": "Minimal, Clean and Expandable Components",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "/dist",
+    "dist/*",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
-    "build": "npm run clean && rollup -c && npm run copy",
-    "copy": "mkdir -p dist/utils && cp src/utils/withRailwind.js dist/utils/ && cp -r src/themes/base/ dist/themes/",
+    "build": "npm run clean && rollup -c",
     "clean": "rimraf -r dist",
     "lint": "eslint 'src/**/*.{ts,tsx,json}'",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc.json",

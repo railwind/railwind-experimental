@@ -13,7 +13,7 @@ Tailwindcss configuration:
 ```js
 // tailwind.config.js
 
-const withRailwind = require('railwind-experimental/dist/utils/withRailwind');
+const withRailwind = require('railwind-experimental/dist/railwind');
 
 /** @type {import('tailwindcss').Config} */
 const tailwindConfig = {

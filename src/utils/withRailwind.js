@@ -5,7 +5,7 @@ const colors = require('../themes/base/colors');
 /** @type {import('tailwindcss').Config} */
 const baseTailwindConfig = {
   darkMode: 'class',
-  content: ['./node_modules/railwind-experimental/dist/**/*.js'],
+  content: ['./node_modules/railwind-experimental/**/*.js'],
   theme: {
     colors,
   },

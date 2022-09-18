@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import { twMerge } from 'tailwind-merge';
 
-import { buttonTheme } from '../../themes/components/button';
+import { buttonTheme } from '../../themes';
 
 type Variant = 'default' | 'contained' | 'outlined';
 

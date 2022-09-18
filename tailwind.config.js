@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-const withRailwind = require('./src/utils/withRailwind');
+const withRailwind = require('./src/railwind');
 
 /** @type {import('tailwindcss').Config} */
 const configuration = {
